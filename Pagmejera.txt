@@ -1,0 +1,75 @@
+ Pagmejera - Explorando nosso Pantanal
+
+
+ Pagmejera será um jogo de apresentação do bioma Pantanal, seus nativos pré-coloniais e de Marechal Cândido Rondon, conterá nele uma visão de um ambiente intocado pelos humanos
+ sendo explorado por ninguém menos que Marechal Cândido Rondon, em meio ao jogo que será em primeira pessoa, sem combate ou violencia, apenas haverá interação com plantas, animais
+ e outros humanos, em meio ao gameplay haverá pequenos esquetes onde serão registrados em notas detalhes sobre uma determinada espécie ou povo, assim explicando para quem 
+ estiver jogando.
+ Para um projeto mais seguro e com menos questões de imprecisões históricas, será um cenario hipotético de aventura de Cândido Rondon, com adições de explicação de várias espécies que 
+ vieram a ser realmente estudadas por outras pessoas e a muitos anos depois da exploração de Rondon pelo territorio de Mato Grosso.
+
+ O intuito do projeto será instigar crianças e adolescentes a se aproximar do nosso bioma, e preserva-lo.
+
+ 
+
+
+
+
+ ----
+
+ gameplay
+
+- Primeira pessoa interagindo com o ambiente ao virar a camera e focar em algum objeto do ambiente, assim destacando-o e então apertando um botão especifico para interagir.
+
+- movimentação livre x movimentação por cenário -
+
+- ao interagir com um objeto no ambiente, ele irá informar em tela os dados daquele animal, planta ou nativo.
+
+- sistema de dia e noite - baseado em tempo e o quão o personagem age.
+
+- sistema de npcs companheiros , onde lhe poderão prover ajudas  e interações de informações
+
+
+----
+
+possibilidade de adição de eventos 
+
+- npcs de apoio possibilidade de dispor itens para ajudar na gameplay
+
+- Água, Binoculos, faca, apito e canoa.
+
+- correnteza 
+
+- capacidade de gameover
+
+- observação escondida  de animais para não assustar
+
+- tradução de falas indigenas para portugues brasileiro atual
+
+----
+
+
+Classificação 
+
+- jogo para crianças e adolescentes entre 12 e 16 anos.
+
+
+
+--------
+
+
+
+
+Olá a todos, meu nome é Breno, atualmente sou estudante de pós-graduação em Analise de Projetos, e estou me aplicando
+a este concurso para conseguir um investimento nesse meio de desenvolvimento de jogos, tenho 24 anos, me formei no fim 
+de 2018 em ADS.
+Como um amante de games fiz alguns cursos na Udemy e também no site da Unity para desenvolvimento na sua plataforma,
+e com esse edital da Secel me instigou voltar a este interesse inicial de quando ainda era da faculdade, de fazer games,
+e estou aqui para abraçar a oportunidade, gostaria de apresentar meu projeto Pagmejera, que em bororo quer dizer grande chefe,
+este, um titulo dado ao Marechal Candido Mariano Rondon, uma figura grandiosa em nosso estado, e ele será o protagonista
+do meu jogo, porém apenas como um meio, o jogo se passara em uma expedição a dentro do nossso estado, do nosso pantanal.
+O jogador em uma camera de primeira pessoa poderá interagir com plantas, arvores, de longe poderá observar animais e 
+também povos originarios, alguns deles, com contato direto.
+O jogo não contará inicialmente com vozes, porém terá seu som de background totalmente baseado no Pantanal e no Cerrado.
+Todo este projeto foi idealizado pela questão de falta de investimento no ensino publico a respeito da nossa natureza e 
+também do nosso principal "herói histórico", um homem que morrer se preciso, mas nunca matar.

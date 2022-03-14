@@ -1,0 +1,536 @@
+<<<<<<< HEAD
+html,body {
+
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+ 
+	background: url('../img/mobumbibg.png') no-repeat center fixed;
+	background-size: cover;
+	background-color: rgba(199, 197, 194, 0.432);
+
+
+}
+
+.bgprofile {
+ 
+	
+	   background-color: rgba(199, 197, 194, 0.432);
+   
+   
+   }
+
+#fanzone {
+
+	 max-height: 30px;
+ 	 display: block;
+ 	 padding: 5px;
+     margin-left: auto;
+     margin-right: auto ;
+
+
+}
+
+#header {
+
+
+   	 position:static;
+ /*	 margin-bottom: 80px; */
+  	 min-height: 6%;
+ 	 width:100%;
+  	 height:auto;
+ 	 background-color:black;
+ 	 background-image: url('../img/titulos.png');
+     background-repeat: repeat;
+	 background-position: revert;
+     background-size: contain;
+     outline-style: auto;
+
+}
+
+
+#subheader {
+
+
+	position:static;
+   margin-bottom: 30px;
+   min-height: 6%;
+  width:100%;
+   height:auto;
+  background-color:rgb(255, 255, 255);
+ background-repeat: repeat;
+ background-position: revert;
+ background-size: contain;
+ outline-style: auto;
+
+}
+
+
+
+#body {
+
+	background-color: white;
+
+
+}
+
+#login{
+
+	display: block;
+	position: relative;
+	margin: auto;
+    max-height: fit-content;
+    min-height: 300px;
+    min-width: 250px;
+    max-width: fit-content;
+	border: 3px ;
+	padding: 40px;
+	background-image: url('../img/loginzone.png');
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+ 	position: relative;
+	margin-top: 25px;
+	
+}
+
+form {
+	position: relative;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+}
+
+#texthome {
+
+	margin-left: 33%;
+    margin-bottom: 5px;
+	position: relative;
+    max-width: fit-content;
+    /* estilo */
+
+    font-family: fantasy;
+
+}
+
+#loginbutton{
+    
+ /* posição*/ 
+	margin-left: 30%;
+    margin-right: 30%;
+
+    
+    padding: 5px;
+
+ /* estilo */ 
+    color: black;
+    background-color: darkgray;
+    border: thin;
+    font-family: fantasy;
+  
+
+}
+
+a {
+    color: dimgrey;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+
+#buttons{
+    
+	/* posição margin-left: 30%;
+	   margin-right: 30%;*/ 
+   
+	   
+	   padding: 5px;
+   
+	/* estilo */ 
+	   color: black;
+	   background-color: darkgray;
+	   border: thin;
+	   font-family: fantasy;
+	 
+   
+   }
+   
+   a {
+	   color: dimgrey;
+	   font-family: fantasy;
+	   text-decoration: none;
+   }
+
+
+.register-form {
+
+
+	background-color: rgba(169,169,169, 0.5);
+	border-style: groove;
+	border-color: black;
+	width: 250px;	
+	margin-left: 40%;
+	text-align: center;
+	padding: 15px;
+	border-width : thick ;
+	border-radius: 10px;
+	align-content: center;
+	position: relative;
+ 
+    margin-bottom: 5px;
+ 
+     /*max-width: fit-content; background: rgba(169,169,169, 0.5)
+    estilo */
+
+    font-family: fantasy;
+
+   
+
+
+
+	}
+
+#register-title {
+
+	font-size: 20px;
+	font-weight: thin;
+
+}
+
+#news {
+
+
+	background-color: rgba(105, 105, 105, 0.363);
+	height: 200px;
+	font-family: fantasy;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 0% 5% 0.05% 5%;
+
+	text-align: center;
+}
+
+#supporters {
+
+
+	height: 800px;
+	background-color: rgba(206, 206, 206, 0.521);
+	font-family: fantasy;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 0% 5% 0.05% 5%;
+
+	text-align: center;
+}
+
+#content {
+border: 5px solid black;
+border-radius: 20px;
+overflow: hidden;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: inline-block;
+}
+
+#navigation {
+
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+}
+
+
+#bar {
+	width: 70px;
+	height: 17px;
+	border: 2px solid white;
+	margin : 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .6s;
+}
+
+#bar:hover{
+	background-color: white;
+}
+
+#slide1,#slide2,#slide3,#slide4,#slide5 {
+	display: none;
+}
+
+#slides {
+	display: flex;
+	width: 500%;
+	height: 100%;
+}
+
+.slide {
+	width: 20%;
+	transition: .6s;
+}
+
+.slide img{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+#slide1:checked ~ .s1 {
+	margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+	margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+	margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+	margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+	margin-left: -80%;
+}
+/* 
+argentinos jr   Arsenal
+dinamarca   Internazionale
+west ham
+grecia Chelsea
+napoli Juventus
+
+
+
+
+*/ 
+=======
+html,body {
+
+	height: 100%;
+	margin: 0;
+}
+
+.bg{
+
+ /* background: url('../img/mobumbibg.png') no-repeat center fixed; */ 
+	background-size: cover;
+	background-color: rgba(199, 197, 194, 0.432);
+
+
+}
+
+#fanzone {
+
+	 max-height: 30px;
+ 	 display: block;
+ 	 padding: 5px;
+     margin-left: auto;
+     margin-right: auto ;
+
+
+}
+
+#header {
+
+
+   	 position:static;
+ /*	 margin-bottom: 80px; */
+  	 min-height: 6%;
+ 	 width:100%;
+  	 height:auto;
+ 	 background-color:black;
+ 	 background-image: url('../img/titulos.png');
+     background-repeat: repeat;
+	 background-position: revert;
+     background-size: contain;
+     outline-style: auto;
+
+}
+
+
+#subheader {
+
+
+	position:static;
+   margin-bottom: 30px;
+   min-height: 6%;
+  width:100%;
+   height:auto;
+  background-color:rgb(255, 255, 255);
+ background-repeat: repeat;
+ background-position: revert;
+ background-size: contain;
+ outline-style: auto;
+
+}
+
+
+
+#body {
+
+	background-color: white;
+
+
+}
+
+#login{
+
+	display: block;
+	position: relative;
+	margin: auto;
+    max-height: fit-content;
+    min-height: 300px;
+    min-width: 250px;
+    max-width: fit-content;
+	border: 3px ;
+	padding: 40px;
+	background-image: url('../img/loginzone.png');
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+ 	position: relative;
+	
+}
+
+form {
+	position: relative;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+}
+
+#texthome {
+
+	margin-left: 33%;
+    margin-bottom: 5px;
+	position: relative;
+    max-width: fit-content;
+    /* estilo */
+
+    font-family: fantasy;
+
+}
+
+#loginbutton{
+    
+ /* posição*/ 
+	margin-left: 30%;
+    margin-right: 30%;
+
+    
+    padding: 5px;
+
+ /* estilo */ 
+    color: black;
+    background-color: darkgray;
+    border: thin;
+    font-family: fantasy;
+  
+
+}
+
+a {
+    color: dimgrey;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+
+#buttons{
+    
+	/* posição margin-left: 30%;
+	   margin-right: 30%;*/ 
+   
+	   
+	   padding: 5px;
+   
+	/* estilo */ 
+	   color: black;
+	   background-color: darkgray;
+	   border: thin;
+	   font-family: fantasy;
+	 
+   
+   }
+   
+   a {
+	   color: dimgrey;
+	   font-family: fantasy;
+	   text-decoration: none;
+   }
+
+
+.register-form {
+
+
+	background-color: rgba(169,169,169, 0.5);
+	border-style: groove;
+	border-color: black;
+	width: 250px;	
+	margin-left: 40%;
+	text-align: center;
+	padding: 15px;
+	border-width : thick ;
+	border-radius: 10px;
+	align-content: center;
+	position: relative;
+ 
+    margin-bottom: 5px;
+ 
+     /*max-width: fit-content; background: rgba(169,169,169, 0.5)
+    estilo */
+
+    font-family: fantasy;
+
+   
+
+
+
+	}
+
+#register-title {
+
+	font-size: 20px;
+	font-weight: thin;
+
+}
+
+#news {
+
+
+	background-color: rgba(105, 105, 105, 0.363);
+	height: 150px;
+	font-family: fantasy;
+	text-decoration: none;
+	border: thin;
+	margin: 0% 5% 0.05% 5%;
+
+	text-align: center;
+}
+
+#supporters {
+
+
+	height: 800px;
+	background-color: rgba(206, 206, 206, 0.521);
+	font-family: fantasy;
+	text-decoration: none;
+	border: thin;
+	margin: 0% 5% 0.05% 5%;
+
+	text-align: center;
+}
+>>>>>>> 24e17a6d8461b5e72b3705d59777cd241a0bb2a4
